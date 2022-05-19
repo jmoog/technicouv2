@@ -1,0 +1,78 @@
+{{ define "main"}}
+<section class="section">
+	<div class="container max-800px">
+		<p class="title is-3">
+			{{ .Title }}
+		</p>
+
+		<div class="content">
+			{{ .Content }}
+
+      <form name="contact" method="POST" action="https://formspree.io/f/xvoldkbq">
+         
+
+        <div class="field">
+          <label class="label">Nom</label>
+          <div class="control">
+            <input class="input" type="text" name="nom" placeholder="Quel est votre nom ?">
+          </div>
+        </div>
+        
+                
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input is-danger" type="email" name ="email" placeholder="Email input" value="hello@">
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+          </div>
+          <p class="help is-danger">Merci d'indiquer votre adresse Email complète</p>
+        </div>
+
+        <div class="field">
+          <label class="label">Téléphone</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input is-danger" type="phone" name ="phone" placeholder="Votre Numéro" value="07 ...">
+            <span class="icon is-small is-left">
+              <i class="fas fa-mobile"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+          </div>
+          <p class="help is-danger">Merci d'indiquer votre numéro de téléphone</p>
+        </div>
+        
+       
+        
+        <div class="field">
+          <label class="label">Laissez nous un Message</label>
+          <div class="control">
+            <textarea class="textarea" name="message" placeholder="Quel est votre besoin ?"></textarea>
+          </div>
+        </div>
+        
+         
+         
+        
+         
+        
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Envoyer</button>
+          </div>
+        </div>
+
+         
+         
+      </form>
+
+		</div>
+	</div>
+</section>
+
+{{ end }}

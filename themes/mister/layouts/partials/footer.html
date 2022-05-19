@@ -1,0 +1,51 @@
+<footer class="footer">
+    <section class="section">
+    <div class="container is-fluid">
+        <div class="columns has-text-centered is-vcentered is-centered">
+            {{ range .Site.Menus.footer }}
+                <div class="column is-narrow">
+                    <a href="{{ .URL }}" class="">{{ .Name }}</a>
+                </div>
+            {{ end }}
+       
+
+    
+            
+                <div class="column is-narrow is-centered">
+                    <figure class="image is-96x96 alignetoi">
+
+                        <img src="/images/logos/france.webp" />
+                         
+
+                    </figure>
+                    
+                </div>
+
+                <div class="column is-narrow">
+                    
+                    <p class="has-text-link">Artisan Français</p>
+                    
+                </div>
+
+                <div class="column is-narrow alignetoi">
+                    <figure class="image is-96x96 alignetoi">
+
+                        <img src="/images/logos/qualite.webp" />
+
+                    </figure>
+                </div>
+
+
+                <div class="column is-narrow">
+                    
+                    <p class="has-text-link">Satisfaction et Qualité</p>
+                    
+                </div>
+            
+        </div>
+    </div>
+
+</section>
+
+
+</footer>

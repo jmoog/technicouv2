@@ -1,3 +1,33 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://techni-couv91.fr/'
+languageCode = 'fr-FR'
+title = "Couvreur 91 TechniCouv artisan Couvreur dans l'Essonne"
+theme = "mister"
+
+
+
+
+[params]
+
+    description = "Couvreur 91 TechniCouv Le technicien de la Couverture Entreprise de couverture dans l'Essonne"
+
+
+[params.phone]
+    phonemobile = "07 85 88 47 86"
+    phonemobilelink = "0785884786"
+    phonefixe = "09 73 73 86 94"
+    phonefixelink = "0973738694"
+
+
+
+[[menu.footer]]
+name = "Mentions Légales"
+url = "/mentions"
+
+[[menu.footer]]
+name = "Protection des données"
+url = "/protection-des-donnees"
+
+[[menu.footer]]
+name = "Plan du Site"
+url = "/plan"
+
