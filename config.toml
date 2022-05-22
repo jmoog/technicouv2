@@ -10,6 +10,14 @@ theme = "mister"
 
     description = "Couvreur 91 TechniCouv Le technicien de la Couverture Entreprise de couverture dans l'Essonne"
 
+    author="Randy ROBERT"
+    
+    [params.adresse]
+    adresseprincipale = "7 Chemin des Galetteries 91310 Leuville Sur Orge"
+    logo = "/images/logos/logo techi couv 91 couvreur dans l'essonne .webp"
+    license = "Depuis 2009 à votre service dans l'Essonne Technicouv "
+
+
 
 [params.phone]
     phonemobile = "07 85 88 47 86"

@@ -1,13 +1,21 @@
 {{ define "main" }}
+
+<section class="section">
 <div class="container">
     <div class="section">
-        <div class="content">
-            <p>{{ .Title }}</p>
+        <div class="content box has-text-centered">
+            <p class="box">{{ .Title }}</p>
+            <div class="box">
             {{ .Content }}
+             
+             
             {{ range .Pages }}
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <div class="box has-text-centered"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
             {{ end }}
+        </div>
         </div>
     </div>
 </div>
+
+</section>
 {{ end }}

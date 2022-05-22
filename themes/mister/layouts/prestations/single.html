@@ -1,0 +1,110 @@
+{{define "main" }}
+<div class="m-3 p-3">
+<nav class="breadcrumb" aria-label="breadcrumbs">
+    <ul>
+      <li><a href="/">Accueil</a></li>
+      <li><a href="/prestations">Prestations</a></li>
+      <li class="is-active"><a href="#" aria-current="page">{{ .Title }}</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="box">
+            <h1 class="title is-size-4 is-spaced is-1 is-centered2 p-3 m-3 has-text-info"> {{ .Title }} dans le 91 TechniCouv Le technicien de la Toiture</h1>
+
+            <div class="container justify p-3 m-3">
+
+                {{ .Content }}
+            
+            </div>
+
+             </div>
+     </section>
+
+
+
+            <section class="section "> 
+
+
+
+                    <div class="container box p-3"> 
+
+                        <div class="columns is-vcentered is-centered p-3 m-3">
+                            <div class="column centered">
+                                <figure class="image">
+                                    <img src =" {{ .Param  "featuredimage" }} " alt = " {{ .Title }} Techni Couv Le Technicien de la Couverture" />
+                                  </figure>
+                            </div>
+                            <div class="column p-3 m-3">
+                                <figure class="image is-128x128">
+                                    <img src="/images/logos/logo techi couv 91 couvreur dans l'essonne .webp" alt="{{ .Title }} Logo" />
+                                  </figure>
+
+
+                                 <div p-3 m-3>
+
+                                    <p class="title is-4">TechniCouv - {{ .Title }}</p>
+                                    <p class="subtitle is-4">Artisan Couvreur dans l'Essonne</p>
+                                    <a class = "m-3 p-3 button bg-is-red has-text-white" href="tel:{{ $.Site.Params.phone.phonemobilelink }} "> <i class="fa-solid fa-mobile-screen-button"></i> &nbsp; {{ $.Site.Params.phone.phonemobile }}</a>
+                                    <p> Nous sommes au <b>{{ $.Site.Params.adresse.adresseprincipale }}</b></p>
+
+
+
+                                 </div>
+
+
+                            </div>
+                        </div>
+
+                   </div>
+
+
+                   <div class="container box p-3"> 
+
+
+                    <div class="content">
+                    
+                        <h2 class="title is-5"> {{ .Param "title2"}}</h2>
+    
+                        <p class ="justify"> {{ .Param "paragraph2"}} </p>
+    
+    
+                      </div>
+
+                    </div>
+
+                    <div class="container box p-3"> 
+
+                    <div class="content">
+
+
+                        <h3 class="title is-spaced is-5 is-centered3"> {{ .Param "title3"}}</h3>
+
+                        <p class="is-size-5 justify"> {{ .Param "paragraph3"}} </p>
+
+
+
+                    </div>
+
+                </div>
+                   
+                
+                
+                </div>
+
+
+
+
+            
+
+    </section>
+
+
+
+
+    {{ end }}

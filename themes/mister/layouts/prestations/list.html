@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<section class="section">
+	<div class="services-container">
+        <section class="services"> 
+
+                <h2 class="title p-3 m-3 is-uppercase">Nos Prestations</h2>
+
+
+            <ul>
+            {{ range (where .Site.RegularPages "Type" "in" "prestations") }}
+
+                <li> <a href="{{ .RelPermalink }} "> {{ .Title }}</a></li>
+
+            
+		        {{ end }}
+
+             </ul>  
+    </section>
+	</div>
+</section>
+
+{{ end }}

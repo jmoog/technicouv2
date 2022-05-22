@@ -2,7 +2,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+	<meta name="author" content="{{ .Site.Params.author}}">
 	
     <link rel="canonical" href="{{ .Permalink }}" />
 
@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="{{ "/fontawesome/css/all.min.css" | relURL }}">
     <link rel="stylesheet" href="{{ absURL "css/bulma.min.css" }}">	
     <link rel="stylesheet" href="{{ absURL "css/style.css" }}">
+    <script src="/js/jquery.min.js"></script>
 
    
 
@@ -21,6 +22,6 @@
  
 	
 	
-	
+	{{ partial "shema-json.html" . }}
 
 </head>
