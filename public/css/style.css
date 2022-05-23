@@ -1,0 +1,57 @@
+.section10{
+
+height: 7rem!important;
+padding: 0.4rem!important;
+margin:0.2rem!important;
+
+}
+
+.white{
+
+background-color:gray!important;
+
+}
+
+
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex: 1;	
+}
+
+
+
+.alignetoi {
+
+margin: 0 auto!important;
+
+}
+
+
+
+.hero {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/bg/bg-technoucou-couvreur-dans-l-essonne.webp") center / cover;
+    
+    
+    }
+
+
+.bg-is-red{
+
+background-color: #DF0810!important;
+
+
+}
+
+.is-red{
+
+  color: #DF0810;
+
+}
