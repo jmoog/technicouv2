@@ -7,7 +7,7 @@ author: Randy ROBERT
 adresse: ="test test test"
 featuredimage: " test test test test"
 
-title2: TechnicOuv améliore l'isolation de votre toiture dans l'Essonne
+title2: Technicouv améliore l'isolation de votre toiture dans l'Essonne
 
 title3: titreh3
 
@@ -29,12 +29,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices, quam 
 
 ## Avec Technicouv Le technicien de la Toiture
 
-Every day is taco ipsum tuesday. It’s taco time all the time. Tacos for breakfast, lunch and dinner. Flour or corn tortillas? Can you put some peppers and onions on that? Tacos, again? This will be 5 times this week and it’s only Tuesday. TACOS!! It’s long been rumored that the chupacabra is really just a crazed man who’s local taco shop went out of business. Give me tacos, or give me death. Tacos al pastor made with adobada meat. Tacos, tacos, tacos. It’s taco time all the time. It’s long been rumored that the chupacabra is really just a crazed man who’s local taco shop went out of business.
 
-
-### Un spécialiste à votre service dans l'Essonne
-
-
-Every day is taco ipsum tuesday. It’s taco time all the time. Tacos for breakfast, lunch and dinner. Flour or corn tortillas? Can you put some peppers and onions on that? Tacos, again? This will be 5 times this week and it’s only Tuesday. TACOS!! It’s long been rumored that the chupacabra is really just a crazed man who’s local taco shop went out of business. Give me tacos, or give me death. Tacos al pastor made with adobada meat. Tacos, tacos, tacos. It’s taco time all the time. It’s long been rumored that the chupacabra is really just a crazed man who’s local taco shop went out of business.
 
 
