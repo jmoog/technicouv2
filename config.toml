@@ -29,11 +29,11 @@ theme = "mister"
 
 [[menu.footer]]
 name = "Mentions Légales"
-url = "/mentions"
+url = "/mentions-legales"
 
 [[menu.footer]]
 name = "Protection des données"
-url = "/protection-des-donnees"
+url = "/données"
 
 [[menu.footer]]
 name = "Plan du Site"
