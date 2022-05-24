@@ -16,14 +16,22 @@
             <h1 class="is-size-6-touch is-size-2 has-text-weight-bold has-text-white">{{ .Site.Title }}</h1>
 
          </div>
-             
-         <div class="container has-text-white has-text-justified p-3 m-3">
+        
+         
+         <div class="container is-fluid has-text-white has-text-justified p-3 m-3">
 
 
                
+               
 
+
+              
         
                  {{ .Content }}
+
+
+
+                 
 
               
                  
@@ -32,7 +40,7 @@
             </div>
 
             <div class="container">
-                <a href="tel:0785884786"><button class="button is-medium bg-is-red has-text-white p-2 m-2"> <i class="fa-solid fa-mobile-screen"></i> &nbsp;07 85 88 47 86</button></a>
+                <a href="tel: {{ $.Site.Params.phone.phonemobilelink }}"><button class="button is-medium bg-is-red has-text-white p-2 m-2"> <i class="fa-solid fa-mobile-screen"></i> &nbsp;{{ $.Site.Params.phone.phonemobile }}</button></a>
                </div>   
 
            

@@ -1,7 +1,7 @@
 <nav class="navbar ">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
-        <img src="/images/logos/logo techi couv 91 couvreur dans l'essonne .webp" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+        <img src="/images/logos/logo techi couv 91 couvreur dans l'essonne .webp" alt="Logo Technicouv artisan couvreur 91">
       </a>
   
       <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
@@ -26,51 +26,51 @@
     <div id="navMenubd-example" class="navbar-menu">
       <div class="navbar-start">
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link  is-active" href="/documentation/overview/start/">
-            Docs
+          <a class="navbar-link  is-active" href="/prestations/">
+            Nos Prestations
           </a>
           <div class="navbar-dropdown ">
-            <a class="navbar-item " href="/documentation/overview/start/">
-              Overview
+            <a class="navbar-item " href="/prestations/nettoyage-de-toiture/">
+              Nettoyage de Toiture
             </a>
-            <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">
-              Modifiers
+            <a class="navbar-item " href="prestations/ravalement-de-facade/">
+              Ravalement de façade
             </a>
-            <a class="navbar-item " href="http://bulma.io/documentation/columns/basics/">
-              Columns
+            <a class="navbar-item " href="/prestations/demoussage-de-toiture/">
+              Démoussage de Toiture
             </a>
-            <a class="navbar-item " href="http://bulma.io/documentation/layout/container/">
-              Layout
+            <a class="navbar-item " href="/prestations/diagnostic-de-toiture/">
+              Diagnostic de Toiture
             </a>
-            <a class="navbar-item " href="http://bulma.io/documentation/form/general/">
-              Form
+            <a class="navbar-item " href="/prestations/renovation-de-toiture/">
+              Rénovation de Toiture
             </a>
-            <a class="navbar-item " href="http://bulma.io/documentation/elements/box/">
-              Elements
+            <a class="navbar-item " href="/prestations/traitement-de-toiture/">
+              Traitement de Toiture
             </a>
   
-            <a class="navbar-item is-active" href="http://bulma.io/documentation/components/breadcrumb/">
-              Components
+            <a class="navbar-item" href="/prestations/entretien-de-toiture/">
+              Entretien de Toiture
             </a>
   
             <hr class="navbar-divider">
             <div class="navbar-item">
               <div>
                 <p class="is-size-6-desktop">
-                  <strong class="has-text-info">0.5.1</strong>
+                  <strong class="has-text-info">Demandez Un Devis</strong>
                 </p>
   
                 <small>
-                  <a class="bd-view-all-versions" href="/versions">View all versions</a>
+                  <a class="bd-view-all-versions" href="/contact/">Contactez Nous</a>
                 </small>
   
               </div>
             </div>
           </div>
         </div>
-        <div class="navbar-item has-dropdown is-hoverable is-mega">
+        <!-- <div class="navbar-item has-dropdown is-hoverable is-mega">
           <div class="navbar-link flex">
-            Blog <span class="tag is-info ml-2">Hover here<span>
+            Nos Chantiers <span class="tag is-info ml-2">Par Ici<span>
           </div>
           <div id="blogDropdown" class="navbar-dropdown " data-style="width: 18rem;">
             <div class="container is-fluid">
@@ -192,15 +192,17 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="navbar-item has-dropdown is-hoverable">
-          <div class="navbar-link">
-            More
-          </div>
+            <a class="navbar-item " href="/a-propos/">
+                À Propos
+              </a>
+        </div>
+          <!--
           <div id="moreDropdown" class="navbar-dropdown ">
             <a class="navbar-item " href="http://bulma.io/extensions/">
               <div class="level is-mobile">
-                <div class="level-left">
+                <div class="level-left/">
                   <div class="level-item">
                     <p>
                       <strong>Extensions</strong>
@@ -219,16 +221,17 @@
               </div>
             </a>
           </div>
-        </div>
-        <a class="navbar-item " href="http://bulma.io/expo/">
-          <span class="bd-emoji">🎨</span> &nbsp;Expo
+        </div> -->
+        <a class="navbar-item " href="tel: {{ $.Site.Params.phone.phonefixelink }}">
+          <span class="bd-emoji">📞</span> &nbsp; {{ $.Site.Params.phone.phonefixe }}
         </a>
         <a class="navbar-item " href="http://bulma.io/love/">
-          <span class="bd-emoji">❤️</span> &nbsp;Love
+          <span class="bd-emoji">❤️</span> &nbsp;Artisan Couvreur par Amour du travail bien fait
         </a>
       </div>
   
       <div class="navbar-end">
+        <!--
         <a class="navbar-item is-hidden-desktop-only" href="https://github.com/jgthms/bulma" target="_blank">
           <span class="icon" style="color: #333;">
             <i class="fa fa-github"></i>
@@ -252,6 +255,7 @@
               </a>
   
             </p>
+            -->
             <p class="control">
               <a class="button bg-is-red has-text-white" href="/contact">
                 <span class="icon">
