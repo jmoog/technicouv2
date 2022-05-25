@@ -1,7 +1,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="author" content="{{ .Site.Params.author}}">
 	
     <link rel="canonical" href="{{ .Permalink }}" />
@@ -23,5 +22,11 @@
 	
 	
 	{{ partial "shema-json.html" . }}
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+     
+   {{ if eq .Type "prestations"}} {{ partial "json-presta.html" . }} {{ end }}
+
 
 </head>
