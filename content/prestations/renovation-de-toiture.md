@@ -7,7 +7,7 @@ author: Randy ROBERT
 adresse: ="7 Chemin des Galetteries 91310 Leuville Sur Orge
 
 
-featuredimage: "/images/chantiers/technicouv-renovation-de-toiture-dans-l-essonne.webp"
+featuredimage: "/images/chantiers/renovation-de-toiture-technicouv.webp"
 
 title2: Rénovation de Toiture 91 avec Techni Couv dans l'Essonne
 
@@ -24,5 +24,5 @@ Rénover sa toiture."
 ## Refaire sa toiture avec Techni Couv 91
 Couvreur zingueur Technicien de la couverture nous intervenons sur les toitures métalliques et notamment sur les toitures en zinc pour remettre en état les éléments de toiture comme les gouttières en zinc. Les infiltrations sur ce type d etoiture apparaissent au niveau des jointures. Avec le temps les feuilles de zinc se dilatent et font apparaître des problèmes d'étanchéité. Les fuites et les infiltrations apparaissent. Techni Couv est à votre service pour effectuer la rénovation d evotre toiture en zinc.
 
-![technicouv le spécialiste de la rénovation de toiture dans l'Essonne](/images/chantiers/technicouv-renovation-de-toiture-dans-l-essonne.webp)
+![technicouv le spécialiste de la rénovation de toiture dans l'Essonne](/images/chantiers/renovation-de-toiture-technicouv-couvreur-91.webp)
 
